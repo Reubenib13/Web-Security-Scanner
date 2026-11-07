@@ -1,0 +1,1221 @@
+{
+  "target": "https://www.google.com",
+  "generated_at": "2026-10-13T15:31:02Z",
+  "config": {
+    "max_pages": 100,
+    "max_depth": 4,
+    "delay": 0.25,
+    "timeout": 10,
+    "same_origin": true
+  },
+  "pages": [
+    {
+      "url": "https://www.google.com/",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "depth": 0,
+      "bytes": 85013
+    },
+    {
+      "url": "https://www.google.com/advanced_search?hl=en-GB&authuser=0",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "depth": 1,
+      "bytes": 289525
+    },
+    {
+      "url": "https://www.google.com/intl/en/policies/privacy/",
+      "status": 200,
+      "content_type": "text/html",
+      "depth": 1,
+      "bytes": 1377
+    },
+    {
+      "url": "https://www.google.com/intl/en/policies/terms/",
+      "status": 200,
+      "content_type": "text/html",
+      "depth": 1,
+      "bytes": 1369
+    },
+    {
+      "url": "https://www.google.com/xjs/_/ss/k=xjs.hp.tk_it0VGoVw.L.X.O/am=ABAAAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAgQgAQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAhAAEAAAAAgAAAAAAAAAAAAAAAIkgAAAACAAEAAAAAAAQAAAAAAAAAAIA/d=1/ed=1/rs=ACT90oE3_Agb-K3DpBBVGGSVqPz0b0RTOQ/m=sb_he,d?cb=121990236",
+      "status": 200,
+      "content_type": "text/css; charset=UTF-8",
+      "depth": 1,
+      "bytes": 0
+    },
+    {
+      "url": "https://www.google.com/images/branding/google_wordmark/v1/1x/googlelogo_color_white_background_272x92dp.png",
+      "status": 200,
+      "content_type": "image/png",
+      "depth": 1,
+      "bytes": 2478
+    },
+    {
+      "url": "https://www.google.com/preferences?hl=en-GB",
+      "status": 200,
+      "content_type": "application/xhtml+xml; charset=ISO-8859-1",
+      "depth": 2,
+      "bytes": 24202
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://www.google.com/",
+      "action": "https://www.google.com/search",
+      "method": "GET",
+      "enctype": "",
+      "inputs": [
+        {
+          "name": "ie",
+          "type": "hidden"
+        },
+        {
+          "name": "hl",
+          "type": "hidden"
+        },
+        {
+          "name": "source",
+          "type": "hidden"
+        },
+        {
+          "name": "biw",
+          "type": "hidden"
+        },
+        {
+          "name": "bih",
+          "type": "hidden"
+        },
+        {
+          "name": "q",
+          "type": "input"
+        },
+        {
+          "name": "btnG",
+          "type": "submit"
+        },
+        {
+          "name": "btnI",
+          "type": "submit"
+        },
+        {
+          "name": "iflsig",
+          "type": "hidden"
+        },
+        {
+          "name": "gbv",
+          "type": "hidden"
+        }
+      ],
+      "has_password": false,
+      "csrf_token_present": false
+    },
+    {
+      "page": "https://www.google.com/advanced_search?hl=en-GB&authuser=0",
+      "action": "https://www.google.com/search",
+      "method": "GET",
+      "enctype": "",
+      "inputs": [
+        {
+          "name": "hl",
+          "type": "hidden"
+        },
+        {
+          "name": "as_q",
+          "type": "text"
+        },
+        {
+          "name": "as_epq",
+          "type": "text"
+        },
+        {
+          "name": "as_oq",
+          "type": "text"
+        },
+        {
+          "name": "as_eq",
+          "type": "text"
+        },
+        {
+          "name": "as_nlo",
+          "type": "text"
+        },
+        {
+          "name": "as_nhi",
+          "type": "text"
+        },
+        {
+          "name": "lr",
+          "type": "select"
+        },
+        {
+          "name": "cr",
+          "type": "select"
+        },
+        {
+          "name": "as_qdr",
+          "type": "select"
+        },
+        {
+          "name": "as_sitesearch",
+          "type": "text"
+        },
+        {
+          "name": "as_occt",
+          "type": "select"
+        },
+        {
+          "name": "as_filetype",
+          "type": "select"
+        },
+        {
+          "name": "as_rights",
+          "type": "select"
+        },
+        {
+          "name": "tbs",
+          "type": "hidden"
+        }
+      ],
+      "has_password": false,
+      "csrf_token_present": false
+    }
+  ],
+  "parameters": [
+    {
+      "name": "as_epq",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "as_eq",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "as_filetype",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "as_nhi",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "as_nlo",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "as_occt",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "as_oq",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "as_q",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "as_qdr",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "as_rights",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "as_sitesearch",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "authuser",
+      "count": 2,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://www.google.com/advanced_search",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/advanced_search",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "bih",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "name": "biw",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "name": "btnG",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "name": "btnI",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "name": "cb",
+      "count": 2,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://www.google.com/xjs/_/ss/k=xjs.hp.tk_it0VGoVw.L.X.O/am=ABAAAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAgQgAQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAhAAEAAAAAgAAAAAAAAAAAAAAAIkgAAAACAAEAAAAAAAQAAAAAAAAAAIA/d=1/ed=1/rs=ACT90oE3_Agb-K3DpBBVGGSVqPz0b0RTOQ/m=sb_he,d",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/xjs/_/ss/k=xjs.hp.tk_it0VGoVw.L.X.O/am=ABAAAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAgQgAQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAhAAEAAAAAgAAAAAAAAAAAAAAAIkgAAAACAAEAAAAAAAQAAAAAAAAAAIA/d=1/ed=1/rs=ACT90oE3_Agb-K3DpBBVGGSVqPz0b0RTOQ/m=sb_he,d",
+          "found_on": "https://www.google.com/xjs/_/ss/k=xjs.hp.tk_it0VGoVw.L.X.O/am=ABAAAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAgQgAQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAhAAEAAAAAgAAAAAAAAAAAAAAAIkgAAAACAAEAAAAAAAQAAAAAAAAAAIA/d=1/ed=1/rs=ACT90oE3_Agb-K3DpBBVGGSVqPz0b0RTOQ/m=sb_he,d?cb=121990236"
+        }
+      ]
+    },
+    {
+      "name": "continue",
+      "count": 2,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://accounts.google.com/ServiceLogin",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://accounts.google.com/ServiceLogin",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "cr",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "ec",
+      "count": 2,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://accounts.google.com/ServiceLogin",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://accounts.google.com/ServiceLogin",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "gbv",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "name": "hl",
+      "count": 13,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/imghp",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://accounts.google.com/ServiceLogin",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/advanced_search",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/imghp",
+          "found_on": "https://www.google.com/imghp?hl=en&ogbl"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/advanced_search",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        },
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        },
+        {
+          "kind": "query",
+          "url": "https://accounts.google.com/ServiceLogin",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        },
+        {
+          "kind": "query",
+          "url": "https://support.google.com/websearch",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/preferences",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/preferences",
+          "found_on": "https://www.google.com/preferences?hl=en-GB"
+        }
+      ]
+    },
+    {
+      "name": "ie",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "name": "iflsig",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "name": "lr",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "ogbl",
+      "count": 2,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://www.google.com/imghp",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/imghp",
+          "found_on": "https://www.google.com/imghp?hl=en&ogbl"
+        }
+      ]
+    },
+    {
+      "name": "opi",
+      "count": 6,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8KwCCAI&usg=AOvVaw0h69J3KogvmSWbFyTuE_y1"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8awCCAM&usg=AOvVaw2rQ0dCc4B7NB1MI3_RhJk-"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8qwCCAQ&usg=AOvVaw1zmhqkSt3elxm2UkAK4rmC"
+        }
+      ]
+    },
+    {
+      "name": "p",
+      "count": 3,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://support.google.com/websearch",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "passive",
+      "count": 2,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://accounts.google.com/ServiceLogin",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://accounts.google.com/ServiceLogin",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "prefdom",
+      "count": 2,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://www.google.com/setprefdomain",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/setprefdomain",
+          "found_on": "https://www.google.com/setprefdomain?prefdom=GB&prev=https://www.google.co.uk/&sig=K_eHmXzbatTBIcP-iK874XHfJFihU%3D"
+        }
+      ]
+    },
+    {
+      "name": "prev",
+      "count": 2,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://www.google.com/setprefdomain",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/setprefdomain",
+          "found_on": "https://www.google.com/setprefdomain?prefdom=GB&prev=https://www.google.co.uk/&sig=K_eHmXzbatTBIcP-iK874XHfJFihU%3D"
+        }
+      ]
+    },
+    {
+      "name": "q",
+      "count": 7,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8KwCCAI&usg=AOvVaw0h69J3KogvmSWbFyTuE_y1"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8awCCAM&usg=AOvVaw2rQ0dCc4B7NB1MI3_RhJk-"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8qwCCAQ&usg=AOvVaw1zmhqkSt3elxm2UkAK4rmC"
+        }
+      ]
+    },
+    {
+      "name": "sa",
+      "count": 6,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8KwCCAI&usg=AOvVaw0h69J3KogvmSWbFyTuE_y1"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8awCCAM&usg=AOvVaw2rQ0dCc4B7NB1MI3_RhJk-"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8qwCCAQ&usg=AOvVaw1zmhqkSt3elxm2UkAK4rmC"
+        }
+      ]
+    },
+    {
+      "name": "sig",
+      "count": 2,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://www.google.com/setprefdomain",
+          "found_on": "https://www.google.com/"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/setprefdomain",
+          "found_on": "https://www.google.com/setprefdomain?prefdom=GB&prev=https://www.google.co.uk/&sig=K_eHmXzbatTBIcP-iK874XHfJFihU%3D"
+        }
+      ]
+    },
+    {
+      "name": "source",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "name": "tab",
+      "count": 4,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://www.google.com/webhp",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.co.uk/intl/en-GB/about/products",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/webhp",
+          "found_on": "https://www.google.com/webhp?tab=ww"
+        }
+      ]
+    },
+    {
+      "name": "tbs",
+      "count": 1,
+      "locations": [
+        {
+          "kind": "form",
+          "url": "https://www.google.com/search",
+          "method": "GET",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        }
+      ]
+    },
+    {
+      "name": "usg",
+      "count": 6,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8KwCCAI&usg=AOvVaw0h69J3KogvmSWbFyTuE_y1"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8awCCAM&usg=AOvVaw2rQ0dCc4B7NB1MI3_RhJk-"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8qwCCAQ&usg=AOvVaw1zmhqkSt3elxm2UkAK4rmC"
+        }
+      ]
+    },
+    {
+      "name": "ved",
+      "count": 6,
+      "locations": [
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/advanced_search?hl=en-GB&authuser=0"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8KwCCAI&usg=AOvVaw0h69J3KogvmSWbFyTuE_y1"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8awCCAM&usg=AOvVaw2rQ0dCc4B7NB1MI3_RhJk-"
+        },
+        {
+          "kind": "query",
+          "url": "https://www.google.com/url",
+          "found_on": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8qwCCAQ&usg=AOvVaw1zmhqkSt3elxm2UkAK4rmC"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "CSP-UNSAFE-EVAL-fd9fdccd",
+      "rule_id": "CSP-UNSAFE-EVAL",
+      "severity": "medium",
+      "issue": "CSP allows 'unsafe-eval'",
+      "url": "https://www.google.com/advanced_search?hl=en-GB&authuser=0",
+      "urls": [
+        "https://www.google.com/advanced_search?hl=en-GB&authuser=0",
+        "https://www.google.com/intl/en/policies/privacy/"
+      ],
+      "count": 2,
+      "detail": "",
+      "cwe": "CWE-95",
+      "owasp": "A05:2021",
+      "reference": "CWE-95",
+      "recommendation": "Remove 'unsafe-eval' and avoid eval()/new Function() in application code.",
+      "first_seen": "2026-10-13T15:30:58Z",
+      "evidence": "Content-Security-Policy: object-src 'none';base-uri 'self';script-src 'nonce-lthn1XUFbuz9xVdBfysU3A' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/xsrp",
+      "problems": [
+        "'unsafe-eval' in script sources"
+      ]
+    },
+    {
+      "id": "CSP-WILDCARD-bd29e74a",
+      "rule_id": "CSP-WILDCARD",
+      "severity": "medium",
+      "issue": "CSP uses overly broad sources",
+      "url": "https://www.google.com/advanced_search?hl=en-GB&authuser=0",
+      "urls": [
+        "https://www.google.com/advanced_search?hl=en-GB&authuser=0",
+        "https://www.google.com/intl/en/policies/privacy/"
+      ],
+      "count": 2,
+      "detail": "",
+      "cwe": "CWE-693",
+      "owasp": "A05:2021",
+      "reference": "CWE-693",
+      "recommendation": "Replace *, https:, http: and data: sources with an explicit allow-list of origins.",
+      "first_seen": "2026-10-13T15:30:58Z",
+      "evidence": "Content-Security-Policy: object-src 'none';base-uri 'self';script-src 'nonce-lthn1XUFbuz9xVdBfysU3A' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/xsrp",
+      "problems": [
+        "Broad script source(s): https:, http:",
+        "Broad script source(s): http:, https:"
+      ]
+    },
+    {
+      "id": "HDR-HSTS-MISSING-7fac371e",
+      "rule_id": "HDR-HSTS-MISSING",
+      "severity": "medium",
+      "issue": "Missing Strict-Transport-Security",
+      "url": "https://www.google.com/",
+      "urls": [
+        "https://www.google.com/",
+        "https://www.google.com/advanced_search?hl=en-GB&authuser=0",
+        "https://www.google.com/intl/en/policies/privacy/",
+        "https://www.google.com/intl/en/policies/terms/",
+        "https://www.google.com/xjs/_/ss/k=xjs.hp.tk_it0VGoVw.L.X.O/am=ABAAAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAgQgAQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAhAAEAAAAAgAAAAAAAAAAAAAAAIkgAAAACAAEAAAAAAAQAAAAAAAAAAIA/d=1/ed=1/rs=ACT90oE3_Agb-K3DpBBVGGSVqPz0b0RTOQ/m=sb_he,d?cb=121990236",
+        "https://www.google.com/images/branding/google_wordmark/v1/1x/googlelogo_color_white_background_272x92dp.png",
+        "https://www.google.com/preferences?hl=en-GB"
+      ],
+      "count": 7,
+      "detail": "",
+      "cwe": "CWE-319",
+      "owasp": "A02:2021",
+      "reference": "CWE-319",
+      "recommendation": "Send Strict-Transport-Security: max-age=31536000; includeSubDomains.",
+      "first_seen": "2026-10-13T15:30:58Z",
+      "evidence": "Strict-Transport-Security: <not set>"
+    },
+    {
+      "id": "HDR-XFO-MISSING-aba0206c",
+      "rule_id": "HDR-XFO-MISSING",
+      "severity": "medium",
+      "issue": "Missing clickjacking protection (X-Frame-Options / frame-ancestors)",
+      "url": "https://www.google.com/intl/en/policies/privacy/",
+      "urls": [
+        "https://www.google.com/intl/en/policies/privacy/",
+        "https://www.google.com/intl/en/policies/terms/"
+      ],
+      "count": 2,
+      "detail": "",
+      "cwe": "CWE-1021",
+      "owasp": "A05:2021",
+      "reference": "CWE-1021",
+      "recommendation": "Send X-Frame-Options: DENY|SAMEORIGIN or a CSP frame-ancestors directive.",
+      "first_seen": "2026-10-13T15:31:00Z",
+      "evidence": "X-Frame-Options: <not set>"
+    },
+    {
+      "id": "CSP-NO-FRAME-ANCESTORS-38561c2c",
+      "rule_id": "CSP-NO-FRAME-ANCESTORS",
+      "severity": "low",
+      "issue": "CSP missing frame-ancestors",
+      "url": "https://www.google.com/intl/en/policies/privacy/",
+      "urls": [
+        "https://www.google.com/intl/en/policies/privacy/"
+      ],
+      "count": 1,
+      "detail": "",
+      "cwe": "CWE-1021",
+      "owasp": "A05:2021",
+      "reference": "CWE-1021",
+      "recommendation": "Add frame-ancestors 'none' or 'self' to prevent clickjacking.",
+      "first_seen": "2026-10-13T15:31:00Z",
+      "evidence": "Content-Security-Policy: script-src 'nonce-YCSnGH48qiPKy_05Cm42oQ' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/policies-site; base-uri 'none'",
+      "problems": [
+        "frame-ancestors not set"
+      ]
+    },
+    {
+      "id": "HDR-NOSNIFF-MISSING-8b123c8b",
+      "rule_id": "HDR-NOSNIFF-MISSING",
+      "severity": "low",
+      "issue": "Missing X-Content-Type-Options: nosniff",
+      "url": "https://www.google.com/",
+      "urls": [
+        "https://www.google.com/",
+        "https://www.google.com/advanced_search?hl=en-GB&authuser=0",
+        "https://www.google.com/preferences?hl=en-GB"
+      ],
+      "count": 3,
+      "detail": "",
+      "cwe": "CWE-693",
+      "owasp": "A05:2021",
+      "reference": "CWE-693",
+      "recommendation": "Send X-Content-Type-Options: nosniff.",
+      "first_seen": "2026-10-13T15:30:58Z",
+      "evidence": "X-Content-Type-Options: <not set>"
+    },
+    {
+      "id": "HDR-REFERRER-MISSING-ea67b6cb",
+      "rule_id": "HDR-REFERRER-MISSING",
+      "severity": "low",
+      "issue": "Missing Referrer-Policy",
+      "url": "https://www.google.com/",
+      "urls": [
+        "https://www.google.com/",
+        "https://www.google.com/advanced_search?hl=en-GB&authuser=0",
+        "https://www.google.com/intl/en/policies/privacy/",
+        "https://www.google.com/intl/en/policies/terms/"
+      ],
+      "count": 4,
+      "detail": "",
+      "cwe": "CWE-200",
+      "owasp": "A05:2021",
+      "reference": "CWE-200",
+      "recommendation": "Send Referrer-Policy: strict-origin-when-cross-origin (or stricter).",
+      "first_seen": "2026-10-13T15:30:58Z",
+      "evidence": "Referrer-Policy: <not set>"
+    },
+    {
+      "id": "COOKIE-NO-HTTPONLY-ffc3e711",
+      "rule_id": "COOKIE-NO-HTTPONLY",
+      "severity": "info",
+      "issue": "Cookie missing HttpOnly attribute",
+      "url": "https://www.google.com/",
+      "urls": [
+        "https://www.google.com/"
+      ],
+      "count": 1,
+      "detail": "",
+      "cwe": "CWE-1004",
+      "owasp": "A05:2021",
+      "reference": "CWE-1004",
+      "recommendation": "Set HttpOnly on session and authentication cookies.",
+      "first_seen": "2026-10-13T15:30:58Z",
+      "evidence": "Set-Cookie: SOCS=<redacted>; expires=Fri, 12-Nov-2027 15:30:58 GMT; path=/; domain=.google.com; Secure; SameSite=lax"
+    },
+    {
+      "id": "CRAWL-REDIRECT-EXTERNAL-07eac862",
+      "rule_id": "CRAWL-REDIRECT-EXTERNAL",
+      "severity": "info",
+      "issue": "Redirect leaves scope",
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8KwCCAI&usg=AOvVaw0h69J3KogvmSWbFyTuE_y1",
+      "urls": [
+        "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8KwCCAI&usg=AOvVaw0h69J3KogvmSWbFyTuE_y1"
+      ],
+      "count": 1,
+      "detail": "",
+      "cwe": "CWE-601",
+      "owasp": "A01:2021",
+      "reference": "CWE-601",
+      "recommendation": "Confirm the redirect target is intended.",
+      "first_seen": "2026-10-13T15:31:02Z",
+      "evidence": "https://support.google.com/websearch/?visit_id=639275022622400345-3469003348&hl=en-GB&rd=2"
+    },
+    {
+      "id": "CRAWL-REDIRECT-EXTERNAL-22b809e2",
+      "rule_id": "CRAWL-REDIRECT-EXTERNAL",
+      "severity": "info",
+      "issue": "Redirect leaves scope",
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8qwCCAQ&usg=AOvVaw1zmhqkSt3elxm2UkAK4rmC",
+      "urls": [
+        "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8qwCCAQ&usg=AOvVaw1zmhqkSt3elxm2UkAK4rmC"
+      ],
+      "count": 1,
+      "detail": "",
+      "cwe": "CWE-601",
+      "owasp": "A01:2021",
+      "reference": "CWE-601",
+      "recommendation": "Confirm the redirect target is intended.",
+      "first_seen": "2026-10-13T15:31:02Z",
+      "evidence": "https://policies.google.com/terms?hl=en-GB&fg=1"
+    },
+    {
+      "id": "CRAWL-REDIRECT-EXTERNAL-49535390",
+      "rule_id": "CRAWL-REDIRECT-EXTERNAL",
+      "severity": "info",
+      "issue": "Redirect leaves scope",
+      "url": "https://www.google.com/intl/en/about.html",
+      "urls": [
+        "https://www.google.com/intl/en/about.html"
+      ],
+      "count": 1,
+      "detail": "",
+      "cwe": "CWE-601",
+      "owasp": "A01:2021",
+      "reference": "CWE-601",
+      "recommendation": "Confirm the redirect target is intended.",
+      "first_seen": "2026-10-13T15:30:59Z",
+      "evidence": "https://about.google/"
+    },
+    {
+      "id": "CRAWL-REDIRECT-EXTERNAL-663fb204",
+      "rule_id": "CRAWL-REDIRECT-EXTERNAL",
+      "severity": "info",
+      "issue": "Redirect leaves scope",
+      "url": "https://www.google.com/webhp?tab=ww",
+      "urls": [
+        "https://www.google.com/webhp?tab=ww"
+      ],
+      "count": 1,
+      "detail": "",
+      "cwe": "CWE-601",
+      "owasp": "A01:2021",
+      "reference": "CWE-601",
+      "recommendation": "Confirm the redirect target is intended.",
+      "first_seen": "2026-10-13T15:31:01Z",
+      "evidence": "https://consent.google.com/ml?continue=https://www.google.com/webhp%3Ftab%3Dww&gl=GB&m=0&pc=shp&uxe=bip&cm=2&hl=en&src=1"
+    },
+    {
+      "id": "CRAWL-REDIRECT-EXTERNAL-c42e2b4a",
+      "rule_id": "CRAWL-REDIRECT-EXTERNAL",
+      "severity": "info",
+      "issue": "Redirect leaves scope",
+      "url": "https://www.google.com/intl/en/ads/",
+      "urls": [
+        "https://www.google.com/intl/en/ads/"
+      ],
+      "count": 1,
+      "detail": "",
+      "cwe": "CWE-601",
+      "owasp": "A01:2021",
+      "reference": "CWE-601",
+      "recommendation": "Confirm the redirect target is intended.",
+      "first_seen": "2026-10-13T15:30:59Z",
+      "evidence": "https://consent.google.com/ml?continue=https://ads.google.com/intl/en/home/&gl=GB&hl=en-US&cm=2&pc=acm&src=1&escs=AUjHKwciAaYfxZKvygk7XVhfNegwfWbQ-Lh3qdhRneBS9IxZ_XTL8qZtWBeQHL5a7pf_JptlO-DylnxDDt74gfgOnJ0TE_ACZuoV"
+    },
+    {
+      "id": "CRAWL-REDIRECT-EXTERNAL-c84bd3e0",
+      "rule_id": "CRAWL-REDIRECT-EXTERNAL",
+      "severity": "info",
+      "issue": "Redirect leaves scope",
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8awCCAM&usg=AOvVaw2rQ0dCc4B7NB1MI3_RhJk-",
+      "urls": [
+        "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Den-GB%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjN6vGCqLeXAxWngv0HHRICB3IQ8awCCAM&usg=AOvVaw2rQ0dCc4B7NB1MI3_RhJk-"
+      ],
+      "count": 1,
+      "detail": "",
+      "cwe": "CWE-601",
+      "owasp": "A01:2021",
+      "reference": "CWE-601",
+      "recommendation": "Confirm the redirect target is intended.",
+      "first_seen": "2026-10-13T15:31:02Z",
+      "evidence": "https://policies.google.com/privacy?hl=en-GB&fg=1"
+    },
+    {
+      "id": "CRAWL-REDIRECT-EXTERNAL-d756aa6e",
+      "rule_id": "CRAWL-REDIRECT-EXTERNAL",
+      "severity": "info",
+      "issue": "Redirect leaves scope",
+      "url": "https://www.google.com/setprefdomain?prefdom=GB&prev=https://www.google.co.uk/&sig=K_eHmXzbatTBIcP-iK874XHfJFihU%3D",
+      "urls": [
+        "https://www.google.com/setprefdomain?prefdom=GB&prev=https://www.google.co.uk/&sig=K_eHmXzbatTBIcP-iK874XHfJFihU%3D"
+      ],
+      "count": 1,
+      "detail": "",
+      "cwe": "CWE-601",
+      "owasp": "A01:2021",
+      "reference": "CWE-601",
+      "recommendation": "Confirm the redirect target is intended.",
+      "first_seen": "2026-10-13T15:31:00Z",
+      "evidence": "https://consent.google.com/ml?continue=https://www.google.com/&gl=GB&m=0&pc=shp&uxe=bip&cm=2&hl=en&src=1"
+    },
+    {
+      "id": "CRAWL-REDIRECT-EXTERNAL-db01997c",
+      "rule_id": "CRAWL-REDIRECT-EXTERNAL",
+      "severity": "info",
+      "issue": "Redirect leaves scope",
+      "url": "https://www.google.com/imghp?hl=en&ogbl",
+      "urls": [
+        "https://www.google.com/imghp?hl=en&ogbl"
+      ],
+      "count": 1,
+      "detail": "",
+      "cwe": "CWE-601",
+      "owasp": "A01:2021",
+      "reference": "CWE-601",
+      "recommendation": "Confirm the redirect target is intended.",
+      "first_seen": "2026-10-13T15:30:58Z",
+      "evidence": "https://consent.google.com/ml?continue=https://www.google.com/imghp%3Fhl%3Den%26ogbl&gl=GB&m=0&pc=ihp&uxe=bip&cm=2&hl=en&src=1"
+    },
+    {
+      "id": "CRAWL-REDIRECT-EXTERNAL-e1466efa",
+      "rule_id": "CRAWL-REDIRECT-EXTERNAL",
+      "severity": "info",
+      "issue": "Redirect leaves scope",
+      "url": "https://www.google.com/services/",
+      "urls": [
+        "https://www.google.com/services/"
+      ],
+      "count": 1,
+      "detail": "",
+      "cwe": "CWE-601",
+      "owasp": "A01:2021",
+      "reference": "CWE-601",
+      "recommendation": "Confirm the redirect target is intended.",
+      "first_seen": "2026-10-13T15:30:59Z",
+      "evidence": "https://consent.google.com/ml?continue=https://www.google.com/business/&gl=GB&hl=en-US&cm=2&pc=acm&src=1&escs=AUjHKwfqd4AR9ZWpJGf9vOaKRHzINTU22KH9Cp9XO9UZR3RsqiABrBGoShGQvbUsEuVUqjcXc_aNayBgt9waZks2kEYgLjQXiRbA"
+    },
+    {
+      "id": "CSP-REPORT-ONLY-e039c7c4",
+      "rule_id": "CSP-REPORT-ONLY",
+      "severity": "info",
+      "issue": "Content-Security-Policy is report-only",
+      "url": "https://www.google.com/",
+      "urls": [
+        "https://www.google.com/",
+        "https://www.google.com/intl/en/policies/terms/"
+      ],
+      "count": 2,
+      "detail": "",
+      "cwe": "CWE-693",
+      "owasp": "A05:2021",
+      "reference": "CWE-693",
+      "recommendation": "Once violations are triaged, enforce the policy with Content-Security-Policy.",
+      "first_seen": "2026-10-13T15:30:58Z",
+      "evidence": "Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-YDSHskzclwsie1zENjtWGA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp"
+    },
+    {
+      "id": "HDR-OBSOLETE-0955e329",
+      "rule_id": "HDR-OBSOLETE",
+      "severity": "info",
+      "issue": "Obsolete or deprecated security header present",
+      "url": "https://www.google.com/",
+      "urls": [
+        "https://www.google.com/",
+        "https://www.google.com/advanced_search?hl=en-GB&authuser=0",
+        "https://www.google.com/intl/en/policies/privacy/",
+        "https://www.google.com/intl/en/policies/terms/",
+        "https://www.google.com/xjs/_/ss/k=xjs.hp.tk_it0VGoVw.L.X.O/am=ABAAAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAgQgAQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAhAAEAAAAAgAAAAAAAAAAAAAAAIkgAAAACAAEAAAAAAAQAAAAAAAAAAIA/d=1/ed=1/rs=ACT90oE3_Agb-K3DpBBVGGSVqPz0b0RTOQ/m=sb_he,d?cb=121990236",
+        "https://www.google.com/images/branding/google_wordmark/v1/1x/googlelogo_color_white_background_272x92dp.png",
+        "https://www.google.com/preferences?hl=en-GB"
+      ],
+      "count": 7,
+      "detail": "Legacy XSS auditor header; modern browsers ignore it and it can introduce leaks.",
+      "cwe": "CWE-1104",
+      "owasp": "A05:2021",
+      "reference": "CWE-1104",
+      "recommendation": "Remove the header; rely on CSP and modern defaults.",
+      "first_seen": "2026-10-13T15:30:58Z",
+      "evidence": "X-XSS-Protection: 0"
+    },
+    {
+      "id": "HDR-PERMISSIONS-MISSING-bc69c5ab",
+      "rule_id": "HDR-PERMISSIONS-MISSING",
+      "severity": "info",
+      "issue": "Missing Permissions-Policy",
+      "url": "https://www.google.com/",
+      "urls": [
+        "https://www.google.com/",
+        "https://www.google.com/advanced_search?hl=en-GB&authuser=0",
+        "https://www.google.com/intl/en/policies/privacy/",
+        "https://www.google.com/intl/en/policies/terms/"
+      ],
+      "count": 4,
+      "detail": "",
+      "cwe": "CWE-693",
+      "owasp": "A05:2021",
+      "reference": "CWE-693",
+      "recommendation": "Send a Permissions-Policy disabling unused browser features (camera, microphone, geolocation...).",
+      "first_seen": "2026-10-13T15:30:58Z",
+      "evidence": "Permissions-Policy: <not set>"
+    }
+  ]
+}
